@@ -8,7 +8,7 @@ public final class ValuePojo {
     /**
      * Class constructor.
      */
-    private AValuePojo() {
+    private ValuePojo() {
     }
     /**
      * Application bootstrap.
