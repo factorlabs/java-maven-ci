@@ -16,7 +16,7 @@ public final class App {
      * @param  args arguments list passed by user
      */
     //CHECKSTYLE:OFF
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
     //CHECKSTYLE:ON
         System.out.println("Hello World!");
     }
