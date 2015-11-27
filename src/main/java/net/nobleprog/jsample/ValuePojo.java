@@ -14,7 +14,7 @@ public final class ValuePojo {
      * Application bootstrap.
      *
      */
-    public static void foo() {
+    public int foo() {
       if (1==1) {
         while (1) {
           if (1 == 2) {
@@ -22,10 +22,12 @@ public final class ValuePojo {
           } else {
             for (int i = 0; i<100; i++) {
               if (true == true) {
+                return 1;
               }
             }
           }
         }
       }
+      return 0;
     }
 }
