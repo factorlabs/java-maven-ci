@@ -40,13 +40,10 @@
         <version>2.0</version>
         <executions>
           <execution>
-          <id>jdepend</id>
-          <goals>
-            <goal>generate</goal>
-          </goals>
-          <configuration>
-            <failOnViolation>false</failOnViolation>
-          </configuration>
+            <phase>validate</phase>
+            <goals>
+              <goal>generate</goal>
+            </goals>
           </execution>
         </executions>
       </plugin>
@@ -56,13 +53,11 @@
         <version>3.5</version>
         <executions>
           <execution>
-          <id>pmd</id>
-          <goals>
-            <goal>pmd</goal>
-          </goals>
-          <configuration>
-            <failOnViolation>false</failOnViolation>
-          </configuration>
+            <phase>validate</phase>
+            <goals>
+              <goal>check</goal>
+              <goal>cpd-check</goal>
+            </goals>
           </execution>
         </executions>
       </plugin>
