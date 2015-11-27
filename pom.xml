@@ -47,9 +47,9 @@
             <goals>
               <goal>generate</goal>
             </goals>
-            <configuration>
+            <!-- <configuration>
               <failOnViolation>false</failOnViolation>
-            </configuration>
+            </configuration> -->
           </execution>
         </executions>
       </plugin>
@@ -64,9 +64,9 @@
               <goal>check</goal>
               <goal>cpd-check</goal>
             </goals>
-            <configuration>
+            <!-- <configuration>
               <failOnViolation>false</failOnViolation>
-            </configuration>
+            </configuration> -->
           </execution>
         </executions>
       </plugin>
