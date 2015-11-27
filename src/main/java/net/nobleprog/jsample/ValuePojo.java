@@ -16,7 +16,7 @@ public final class ValuePojo {
      */
     public int foo() {
       if (1==1) {
-        while (1) {
+        while (true) {
           if (1 == 2) {
 
           } else {
