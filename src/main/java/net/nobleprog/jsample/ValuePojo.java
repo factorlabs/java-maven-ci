@@ -18,7 +18,7 @@ public final class ValuePojo {
       if (1==1) {
         while (true) {
           if (1 == 2) {
-
+            return 1;
           } else {
             for (int i = 0; i<100; i++) {
               if (true == true) {
@@ -27,6 +27,7 @@ public final class ValuePojo {
             }
           }
         }
+        return 0;
       }
       return 0;
     }
